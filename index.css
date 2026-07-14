@@ -1,0 +1,33 @@
+*/
+.houses{
+    display:grid;
+    grid-template-columns: repeat(2,300px);
+    gap: 20px;
+    justify-content: center;
+}
+.build{
+    width: 300px;
+    border:1px solid #ddd;
+    background:white;
+    border-radius:12px;
+    overflow:hidden;
+    box-shadow: 0 2px 10px rgba(0,0,0.15);
+}
+
+.build img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+.build:hover{
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+.build:active{
+    transform: scale(0.95);
+    transition: all 0.3s ease-in-out;
+}
+.span{
+    margin: 10px;
+}
