@@ -75,6 +75,7 @@ button{
 
 
 
+
 /* Main Content */
 
 main{
@@ -132,7 +133,46 @@ main{
     color:#ff385c;
     font-weight:bold;
 }
-
+h1{
+    img{
+        width: 20%;
+        height: 20%;
+        vertical-align: middle;
+        margin-left: 10px;
+    }
+}
+nav li img{
+    width: 10%;
+    height: 10%px;
+   vertical-align: middle;
+    margin-right: 5px;
+}
+nav li:hover{
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+nav li:active{
+    transform: scale(0.95);
+    transition: all 0.3s ease-in-out;
+}
+form ul img{
+    width: 10%;
+    height: 10%px;
+   vertical-align: middle;
+    margin-right: 5px;
+}
+form ul:hover{
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+form ul:active{
+    transform: scale(0.95);
+    transition: all 0.3s ease-in-out;
+}
+form ul{
+    border:1px solid #ddd;
+    border-radius:50px;
+}
 
 /* Footer */
 footer{
