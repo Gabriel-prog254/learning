@@ -3,6 +3,7 @@
 body{
     margin:0px;
     padding:0px;
+   
 }
 header{
     padding:20px 40px;
@@ -85,11 +86,14 @@ main{
     padding: 20px;
 }
 .build{
+    display: block;
     width: 180px;
     background: white;
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 2px 10px rgba(0,0,0,.1);
+    text-decoration: none;
+    color: inherit;
 }
     /*Image syling*/
 .build img{
@@ -161,18 +165,6 @@ form ul img{
    vertical-align: middle;
     margin-right: 5px;
 }
-form ul:hover{
-    transform: scale(1.05);
-    transition: all 0.3s ease-in-out;
-}
-form ul:active{
-    transform: scale(0.95);
-    transition: all 0.3s ease-in-out;
-}
-form ul{
-    border:1px solid #ddd;
-    border-radius:50px;
-}
 
 /* Footer */
 footer{
@@ -181,3 +173,10 @@ footer{
     background:white;
     text-align:center;
 } 
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    font-family: 'Times New Roman', serif;
+}
